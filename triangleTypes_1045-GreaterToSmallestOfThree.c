@@ -2,9 +2,9 @@
 #include<stdlib.h>
 int main()
 {
-    float a, b, c;
-    float g1, g2, g3;
-    scanf("%f %f %f",&a,&b,&c);
+    double a, b, c;
+    double g1, g2, g3;
+    scanf("%lf %lf %lf",&a,&b,&c);
     if(a > b)
     {
         if(a > c)
@@ -50,6 +50,7 @@ int main()
         g2 = b;
         g3 = a;
     }
+    printf("%f\n%f\n%f\n",g1,g2,g3);    //Check Order
 
     if(g1 >= g2 + g3)
     {
