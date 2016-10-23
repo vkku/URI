@@ -1,3 +1,4 @@
+//ToDo : Optimise it
 #include<stdio.h>
 void prime(int n);
 int isPrime(int n);
